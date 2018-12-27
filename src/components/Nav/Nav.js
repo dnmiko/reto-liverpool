@@ -16,10 +16,17 @@ class Nav extends Component {
     render() {
         return (
             <header className="App-nav">
-                <img src={logo} className="App-logo" alt="logo" />
-                <h5 className="menu-item">
-                    Agregar artículo
-                </h5>
+                <div className="logo-container" >
+                    <img src={logo} className="App-logo" alt="logo" />
+                </div>
+                <div className="menu-container">
+                    <div className="menu-item">
+                        Módulo de administración
+                     </div>
+                    <div className="menu-item">
+                        Artículos agregados
+                     </div>
+                </div>
             </header>
         )
     }
