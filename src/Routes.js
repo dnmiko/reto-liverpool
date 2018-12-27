@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import React, { Component } from 'react';
 import Login from './components/Login/Login';
 import Home from './components/Home/Home';
+import AddProduct from './components/AddProduct/AddProduct';
 
 class Routes extends Component {
     render() {
@@ -10,6 +11,7 @@ class Routes extends Component {
                 <main>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/login" component={Login} />
+                    <Route exact path="/add" component={AddProduct} />
                 </main>
             </Router>
         )

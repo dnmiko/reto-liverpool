@@ -9,7 +9,7 @@ class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            user_name: "",
+            email: "",
             password: ""
         }
     }
@@ -59,20 +59,20 @@ class Login extends Component {
                              </p>
                             <div className="formGroup">
                                 <div className="inputGroup">
-                                    <label htmlFor="user_name">
+                                    <label htmlFor="email">
                                         <h3>
                                             Usuario
                                          </h3>
                                     </label>
-                                    <input type="text" name="user_name" className="telInput" id="telInput" placeholder="ejemplo@liverpool.com" value={this.state.user_name} onChange={this.checkOnInput} />
+                                    <input type="text" name="email" className="telInput" id="email" placeholder="ejemplo@liverpool.com" value={this.state.email} onChange={this.checkOnInput} />
                                     <label htmlFor="password">
                                         <h3>
                                             Contraseña
                                          </h3>
                                     </label>
-                                    <input type="password" name="password" className="telInput" id="telInput" placeholder="" value={this.state.password} onChange={this.checkOnInput} />
+                                    <input type="password" name="password" className="telInput" id="password" placeholder="" value={this.state.password} onChange={this.checkOnInput} />
                                 </div>
-                                <button type="button" className="btn" onClick={this.sendNumber}>
+                                <button type="button" className="btn" onClick={this.submitForm}>
                                     Iniciar sesión
                                 </button>
                             </div>
