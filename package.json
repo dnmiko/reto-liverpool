@@ -1,7 +1,18 @@
 {
   "name": "reto-liverpool",
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "description": "Primer ejercicio del reto Liverpool",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnmiko/retoLiverpoolFront"
+  },
+  "author": "Diego Cifuentes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnmiko/retoLiverpool/issues"
+  },
+  "homepage": "https://github.com/dnmiko/retoLiverpool#readme",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
