@@ -19,11 +19,21 @@
     justify-content: flex-end;
 }
 
-h5 {
+h4 {
     color: #c81685;
+    margin: 0;
+}
+
+h5 {
+    color: #ff0000;
     margin: 0;
 }
 
 p {
     margin: 0;
+}
+
+.productID {
+    color: #73787A;
+    font-size: 0.75vw;
 }

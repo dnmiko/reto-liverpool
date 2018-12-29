@@ -4,6 +4,8 @@ import Login from './components/Login/Login';
 import Home from './components/Home/Home';
 import AddProduct from './components/AddProduct/AddProduct';
 import ListProducts from './components/ListProducts/ListProducts';
+import Logout from './components/Logout/Logout';
+
 
 class Routes extends Component {
     render() {
@@ -14,6 +16,7 @@ class Routes extends Component {
                     <Route exact path="/login" component={Login} />
                     <Route exact path="/add" component={AddProduct} />
                     <Route exact path="/get" component={ListProducts} />
+                    <Route exact path='/logout' component={Logout} />
                 </main>
             </Router>
         )

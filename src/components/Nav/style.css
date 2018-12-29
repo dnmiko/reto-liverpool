@@ -36,3 +36,8 @@
     width: 40vw;
     justify-content: space-evenly;
 }
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}

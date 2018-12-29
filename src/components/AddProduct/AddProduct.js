@@ -7,6 +7,7 @@ import add from '../../services/addProduct';
 import remove from '../../services/deleteProduct';
 import update from '../../services/updateProduct';
 import swal from 'sweetalert';
+import logo from '../../logo.png';
 
 class AddProduct extends Component {
     constructor(props) {
@@ -102,37 +103,37 @@ class AddProduct extends Component {
                                 Ingresa la información del producto que deseas agregar. Si deseas eliminar o actualizar un producto existente es necesario además el ID del producto.
                              </p>
                             <div className="formGroupLogged">
-                                <div className="inputGroup">
+                                <div className="inputGroupLogged">
                                     <label htmlFor="id">
                                         <h4>
                                             ID del producto
                                          </h4>
                                     </label>
-                                    <input type="text" name="id" className="telInput" id="id" placeholder="" value={this.state.id} onChange={this.checkOnInput} />
+                                    <input type="text" name="id" className="telInputLogged" id="id" placeholder="" value={this.state.id} onChange={this.checkOnInput} />
                                     <label htmlFor="name">
                                         <h4>
                                             Nombre del producto
                                          </h4>
                                     </label>
-                                    <input type="text" name="name" className="telInput" id="name" placeholder="" value={this.state.name} onChange={this.checkOnInput} />
+                                    <input type="text" name="name" className="telInputLogged" id="name" placeholder="" value={this.state.name} onChange={this.checkOnInput} />
                                     <label htmlFor="description">
                                         <h4>
                                             Descripción del producto
                                          </h4>
                                     </label>
-                                    <input type="text" name="description" className="telInput" id="description" placeholder="" value={this.state.description} onChange={this.checkOnInput} />
+                                    <input type="text" name="description" className="telInputLogged" id="description" placeholder="" value={this.state.description} onChange={this.checkOnInput} />
                                     <label htmlFor="price">
                                         <h4>
                                             Precio del producto
                                          </h4>
                                     </label>
-                                    <input type="text" name="price" className="telInput" id="price" placeholder="" value={this.state.price} onChange={this.checkOnInput} />
+                                    <input type="text" name="price" className="telInputLogged" id="price" placeholder="" value={this.state.price} onChange={this.checkOnInput} />
                                     <label htmlFor="image_url">
                                         <h4>
                                             URL de la imagen
                                          </h4>
                                     </label>
-                                    <input type="text" name="image_url" className="telInput" id="image_url" placeholder="" value={this.state.image_url} onChange={this.checkOnInput} />
+                                    <input type="text" name="image_url" className="telInputLogged" id="image_url" placeholder="" value={this.state.image_url} onChange={this.checkOnInput} />
                                 </div>
                             </div>
                         </div>

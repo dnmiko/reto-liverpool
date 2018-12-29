@@ -22,8 +22,14 @@ class ProductCard extends Component {
             <div className="productCard">
                 <img className="card_img" src={this.state.product.image_url} alt="Imagen del producto" />
                 <div className="productInfoContainer">
-                    <h5 >{this.state.product.name}</h5>
+                    <h4>{this.state.product.name}</h4>
+                    <h5>${this.state.product.price}</h5>
                     <p>{this.state.product.description}</p>
+                    <p>ID único:
+                        <span className="productID">
+                            {this.state.product._id}
+                        </span>
+                    </p>
                 </div>
             </div>
         )
